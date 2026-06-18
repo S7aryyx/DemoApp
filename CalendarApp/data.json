@@ -1,0 +1,42 @@
+﻿{
+  "Months": [
+    {
+      "Id": 1,
+      "Name": "Январь 2025"
+    },
+    {
+      "Id": 2,
+      "Name": "Февраль 2025"
+    },
+    {
+      "Id": 3,
+      "Name": "Март 2025"
+    }
+  ],
+  "Events": [
+    {
+      "Id": 1,
+      "MonthId": 1,
+      "Title": "Встреча с командой",
+      "DateTime": "2025-01-15T10:00:00",
+      "Description": "Обсуждение текущих задач",
+      "IsCompleted": false
+    },
+    {
+      "Id": 2,
+      "MonthId": 1,
+      "Title": "Сдать отчёт",
+      "DateTime": "2025-01-20T18:00:00",
+      "Description": "Подготовить и отправить квартальный отчёт",
+      "IsCompleted": true
+    },
+    {
+      "Id": 3,
+      "MonthId": 2,
+      "Title": "День рождения",
+      "DateTime": "2025-02-14T12:00:00",
+      "Description": "Поздравить коллегу",
+      "IsCompleted": false
+    }
+  ]
+}
