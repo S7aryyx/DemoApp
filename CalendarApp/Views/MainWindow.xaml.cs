@@ -68,20 +68,12 @@ namespace CalendarApp.Views
             LoadingText.Visibility = show ? Visibility.Visible : Visibility.Collapsed;
         }
 
-        // Обработчик двойного клика по событию для открытия деталей
         private void EventsListBox_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             if (EventsListBox.SelectedItem is CalendarEvent selectedEvent)
             {
                 OpenDetails(selectedEvent);
             }
-        }
-
-        // Обработчик для изменения статуса через CheckBox (чтобы обновить объект)
-        private void CheckBox_Click(object sender, RoutedEventArgs e)
-        {
-            // Привязка TwoWay сама обновит свойство IsCompleted,
-            // но если нужна дополнительная логика - можно добавить.
         }
 
         private void OpenDetails(CalendarEvent ev)

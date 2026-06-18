@@ -11,7 +11,6 @@ namespace CalendarApp.Views
         {
             InitializeComponent();
             _event = ev;
-            // Заполняем поля
             TitleTextBlock.Text = _event.Title;
             DateTimeTextBlock.Text = _event.DateTime.ToString("g");
             DescriptionTextBlock.Text = _event.Description;
@@ -20,7 +19,6 @@ namespace CalendarApp.Views
 
         private void CompletedCheckBox_Click(object sender, RoutedEventArgs e)
         {
-            // Обновляем статус в объекте
             _event.IsCompleted = CompletedCheckBox.IsChecked ?? false;
         }
 
