@@ -76,6 +76,11 @@ namespace CalendarApp.Views
             }
         }
 
+        private void CheckBox_Click(object sender, RoutedEventArgs e)
+        {
+            //Заглушка
+        }
+
         private void OpenDetails(CalendarEvent ev)
         {
             var detailWindow = new EventDetailWindow(ev)
