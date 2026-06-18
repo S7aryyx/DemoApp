@@ -2,40 +2,48 @@
   "Months": [
     {
       "Id": 1,
-      "Name": "Январь 2025"
+      "Name": "Июнь 2026"
     },
     {
       "Id": 2,
-      "Name": "Февраль 2025"
+      "Name": "Июль2026"
     },
     {
       "Id": 3,
-      "Name": "Март 2025"
+      "Name": "Август 2026"
     }
   ],
   "Events": [
     {
       "Id": 1,
       "MonthId": 1,
-      "Title": "Встреча с командой",
-      "DateTime": "2025-01-15T10:00:00",
-      "Description": "Обсуждение текущих задач",
+      "Title": "Пробник Демонстрационного Экзамена",
+      "DateTime": "2026-06-19T09:00:00",
+      "Description": "Страдать.",
       "IsCompleted": false
     },
     {
       "Id": 2,
       "MonthId": 1,
-      "Title": "Сдать отчёт",
-      "DateTime": "2025-01-20T18:00:00",
-      "Description": "Подготовить и отправить квартальный отчёт",
-      "IsCompleted": true
+      "Title": "Демонстрационный Экзамен",
+      "DateTime": "2026-06-23T07:00:00",
+      "Description": "Страдать x2.",
+      "IsCompleted": false
     },
     {
       "Id": 3,
+      "MonthId": 1,
+      "Title": "Защита ВКР",
+      "DateTime": "2026-06-29T09:00:00",
+      "Description": "Клоунские вайбы.",
+      "IsCompleted": false
+    },
+    {
+      "Id": 4,
       "MonthId": 2,
-      "Title": "День рождения",
-      "DateTime": "2025-02-14T12:00:00",
-      "Description": "Поздравить коллегу",
+      "Title": "Армия Армия...",
+      "DateTime": "2026-06-04T09:00:00",
+      "Description": "Юность в сапогах.",
       "IsCompleted": false
     }
   ]
